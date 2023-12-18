@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Count from './Count';
-import ToggleButton from './ToggleButton';
-import IndexExample from './IndexExample';
+import Count from './js/Count';
+import ToggleButton from './js/ToggleButton';
+import IndexExample from './js/IndexExample';
+import ImageChange from './js/ImageChange';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,8 @@ root.render(
     {/* <App /> */}  {/* React의 주석은 이와 같이 사용함 ! */}
     {/* <Count /> */}
     {/* <ToggleButton /> */}
-    <IndexExample />
+    {/* <IndexExample /> */}
+    <ImageChange />
   </React.StrictMode> // React.StrictMode : React 내부에서 잠재적인 문제가 있는지 알아내기 위한 도구
 );
 reportWebVitals(); // reposrtWebVitals : React 성능 측정하기 위한 메서드
