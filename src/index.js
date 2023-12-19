@@ -17,7 +17,7 @@ import PracticeTwo from './js/PracticeTwo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}  {/* React의 주석은 이와 같이 사용함 ! */}
+    <App />  {/* React의 주석은 이와 같이 사용함 ! */}
     {/* <Count /> */}
     {/* <ToggleButton /> */}
     {/* <IndexExample /> */}
@@ -26,7 +26,7 @@ root.render(
     {/* <AnimalSound /> */}
     {/* <TimerCount /> */}
     {/* <ExampleCallback /> */}
-    <PracticeTwo />
+    {/* <PracticeTwo /> */}
   </React.StrictMode> // React.StrictMode : React 내부에서 잠재적인 문제가 있는지 알아내기 위한 도구
 );
 reportWebVitals(); // reposrtWebVitals : React 성능 측정하기 위한 메서드
