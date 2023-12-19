@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 function ObjectExample() {
-    const [person, setPerson] = useState({name:'KH', age:20});
+    const [person, setPerson] = useState({name:'KH', age:20}); // age:'20' 은 문자로 인식하여 201111.... 값으로 1이 옆에 붙여짐.
     // '' 작은 따옴표로 감싸주면 String 값으로 인식하기 때문에 int 값으로 바꿔주려면 작은 따옴표('')를 제거할 것!
     // 작음따옴표('')로 감싸주면 문자열과 숫자를 더하는 것으로 인식 '20'에 1 이라면 201111....로 결과값이 나옴 
 
