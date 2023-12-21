@@ -16,6 +16,8 @@ import PracticeTwo from './component/PracticeTwo';
 import ParentComponent from './component/ParentComponent';
 import Blog from './component/Blog';
 import Board from './component/Board';
+import HelloWorld from './component/JSXExample';
+import TagExample from './component/TagExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,8 +32,10 @@ root.render(
     {/* <TimerCount /> */}
     {/* <ExampleCallback /> */}
     {/* <PracticeTwo /> */}
-    {/* <ParentComponent /> */}
-    <Board />
+    {/* <ParentComponent />
+    {/* <Board /> */}
+    {/* <HelloWorld /> */}
+    <TagExample />
   </React.StrictMode> // React.StrictMode : React 내부에서 잠재적인 문제가 있는지 알아내기 위한 도구
 );
 reportWebVitals(); // reposrtWebVitals : React 성능 측정하기 위한 메서드
