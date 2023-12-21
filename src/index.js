@@ -3,22 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AppCopy from './js/App copy';
-import Count from './js/Count';
-import ToggleButton from './js/ToggleButton';
-import IndexExample from './js/IndexExample';
-import ImageChange from './js/ImageChange';
-import ObjectExample from './js/ObjectExample';
-import AnimalSound from './js/Animal';
-import TimerCount from './js/TimerCount';
-import ExampleCallback from './js/ExampleCallback';
-import PracticeTwo from './js/PracticeTwo';
-
+import AppCopy from './component/App copy';
+import Count from './component/Count';
+import ToggleButton from './component/ToggleButton';
+import IndexExample from './component/IndexExample';
+import ImageChange from './component/ImageChange';
+import ObjectExample from './component/ObjectExample';
+import AnimalSound from './component/Animal';
+import TimerCount from './component/TimerCount';
+import ExampleCallback from './component/ExampleCallback';
+import PracticeTwo from './component/PracticeTwo';
+import ParentComponent from './component/ParentComponent';
+import Blog from './component/Blog';
+import Board from './component/Board';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />  {/* React의 주석은 이와 같이 사용함 ! */}
+    {/* <App />*/} {/* React의 주석은 이와 같이 사용함 ! */}
     {/* <Count /> */}
     {/* <ToggleButton /> */}
     {/* <IndexExample /> */}
@@ -28,6 +30,8 @@ root.render(
     {/* <TimerCount /> */}
     {/* <ExampleCallback /> */}
     {/* <PracticeTwo /> */}
+    {/* <ParentComponent /> */}
+    <Board />
   </React.StrictMode> // React.StrictMode : React 내부에서 잠재적인 문제가 있는지 알아내기 위한 도구
 );
 reportWebVitals(); // reposrtWebVitals : React 성능 측정하기 위한 메서드
