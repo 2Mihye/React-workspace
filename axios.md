@@ -17,4 +17,4 @@ axios.get('https://jsonplaceholder.typicode.com/todos') // axios.get으로 데�
 .catch(error => {("", error)});
 
 // 데이터를 가져오는데 실패tl catch문을 활용하여 에러를 표시
-// 에러를 표기할 때는 console.log 를 활용하여 개발자들 간에 보여질 수 있도록 표기. error는 변수명일 뿐 error가 아닌 err, aaaㅇ 리너 변수명으로 받고 싶다면 변수명을 변경해서 표기해도 좋음
+// 에러를 표기할 때는 console.log 를 활용하여 개발자들 간에 보여질 수 있도록 표기. error는 변수명일 뿐 error가 아닌 err, aaa 이런 변수명으로 받고 싶다면 변수명을 변경해서 표기해도 좋음
